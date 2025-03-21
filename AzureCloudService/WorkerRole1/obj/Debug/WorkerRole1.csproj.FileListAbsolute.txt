@@ -1,0 +1,10 @@
+C:\Users\piw.FAREAST\source\repos\AzureCloudService\WorkerRole1\bin\Debug\WorkerRole1.dll.config
+C:\Users\piw.FAREAST\source\repos\AzureCloudService\WorkerRole1\bin\Debug\WorkerRole1.dll
+C:\Users\piw.FAREAST\source\repos\AzureCloudService\WorkerRole1\bin\Debug\WorkerRole1.pdb
+C:\Users\piw.FAREAST\source\repos\AzureCloudService\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\piw.FAREAST\source\repos\AzureCloudService\WorkerRole1\bin\Debug\MonAgentListener.dll
+C:\Users\piw.FAREAST\source\repos\AzureCloudService\WorkerRole1\obj\Debug\WorkerRole1.csproj.AssemblyReference.cache
+C:\Users\piw.FAREAST\source\repos\AzureCloudService\WorkerRole1\obj\Debug\WorkerRole1.csproj.CoreCompileInputs.cache
+C:\Users\piw.FAREAST\source\repos\AzureCloudService\WorkerRole1\obj\Debug\WorkerRo.6DBD98A4.Up2Date
+C:\Users\piw.FAREAST\source\repos\AzureCloudService\WorkerRole1\obj\Debug\WorkerRole1.dll
+C:\Users\piw.FAREAST\source\repos\AzureCloudService\WorkerRole1\obj\Debug\WorkerRole1.pdb

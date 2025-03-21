@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AzureRMSwappableCloudServiceV2Name />
+    <AzureRMSwappableCloudServiceV2ResourceGroupName />
+    <AzureRMSwappableCloudServiceV2Location />
+    <AzureCredentials>{"ServiceManagementEndpoint":"https:\/\/management.core.windows.net\/","ResourceManagementEndpoint":"https:\/\/management.azure.com\/","SubscriptionId":"d87c0835-db85-49ea-9664-5a6f8eaf44d8"}</AzureCredentials>
+    <AzureDeploymentLabel>azurecloudservicevsdeploy</AzureDeploymentLabel>
+    <AzureEnableRemoteDesktop>False</AzureEnableRemoteDesktop>
+    <AzureServiceConfiguration>Cloud</AzureServiceConfiguration>
+    <AzureSolutionConfiguration>Release</AzureSolutionConfiguration>
+    <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
+    <EnableApplicationInsights>True</EnableApplicationInsights>
+    <AzureSlot>Production</AzureSlot>
+    <AzureRMCloudServiceV2Name>+CSESMigration</AzureRMCloudServiceV2Name>
+    <AzureRMCloudServiceV2ResourceGroupName>+CSESDemo</AzureRMCloudServiceV2ResourceGroupName>
+    <AzureRMCloudServiceV2Location>{"Name":"eastasia","DisplayName":"East Asia"}</AzureRMCloudServiceV2Location>
+    <AzureRMKeyVaultName />
+    <AzureRMKeyVaultResourceGroupName />
+    <AzureRMKeyVaultLocation />
+    <AzureRMStorageAccountName>+csesmigrationstg</AzureRMStorageAccountName>
+    <AzureRMStorageAccountResourceGroupName>+CSESDemo</AzureRMStorageAccountResourceGroupName>
+    <AzureRMStorageAccountLocation>{"Name":"eastasia","DisplayName":"East Asia"}</AzureRMStorageAccountLocation>
+    <AzureRMCloudServiceV2DNSName />
+  </PropertyGroup>
+</Project>
