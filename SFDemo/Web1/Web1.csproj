@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsServiceFabricServiceProject>True</IsServiceFabricServiceProject>
+    <ServerGarbageCollection>True</ServerGarbageCollection>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>True</SelfContained>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Content\bootstrap-grid.css" />
+    <None Include="wwwroot\Content\bootstrap-grid.css.map" />
+    <None Include="wwwroot\Content\bootstrap-grid.min.css" />
+    <None Include="wwwroot\Content\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap-grid.rtl.css" />
+    <None Include="wwwroot\Content\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\Content\bootstrap-grid.rtl.min.css" />
+    <None Include="wwwroot\Content\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap-reboot.css" />
+    <None Include="wwwroot\Content\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\Content\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\Content\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap-reboot.rtl.css" />
+    <None Include="wwwroot\Content\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\Content\bootstrap-reboot.rtl.min.css" />
+    <None Include="wwwroot\Content\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap-utilities.css" />
+    <None Include="wwwroot\Content\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\Content\bootstrap-utilities.min.css" />
+    <None Include="wwwroot\Content\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap-utilities.rtl.css" />
+    <None Include="wwwroot\Content\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\Content\bootstrap-utilities.rtl.min.css" />
+    <None Include="wwwroot\Content\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap.css" />
+    <None Include="wwwroot\Content\bootstrap.css.map" />
+    <None Include="wwwroot\Content\bootstrap.min.css" />
+    <None Include="wwwroot\Content\bootstrap.min.css.map" />
+    <None Include="wwwroot\Content\bootstrap.rtl.css" />
+    <None Include="wwwroot\Content\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\Content\bootstrap.rtl.min.css" />
+    <None Include="wwwroot\Content\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\Content\Site.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ServiceFabric.AspNetCore.Kestrel" Version="6.0.1028" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Startup.cmd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
