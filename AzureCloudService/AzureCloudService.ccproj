@@ -48,23 +48,23 @@
       <RoleName>WebRole1</RoleName>
       <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
-    <ProjectReference Include="WorkerRole1\WorkerRole1.csproj">
-      <Name>WorkerRole1</Name>
-      <Project>{6c73cefc-4f05-4cb5-ada2-deddc004f1a0}</Project>
+    <ProjectReference Include="WorkerRole\WorkerRole.csproj">
+      <Name>WorkerRole</Name>
+      <Project>{76b14977-0097-4542-8b35-18bc66fa356a}</Project>
       <Private>True</Private>
       <RoleType>Worker</RoleType>
-      <RoleName>WorkerRole1</RoleName>
+      <RoleName>WorkerRole</RoleName>
       <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Profiles" />
     <Folder Include="WebRole1Content\" />
-    <Folder Include="WorkerRole1Content\" />
+    <Folder Include="WorkerRoleContent\" />
   </ItemGroup>
   <ItemGroup>
     <DiagnosticsConfiguration Include="WebRole1Content\diagnostics.wadcfgx" />
-    <DiagnosticsConfiguration Include="WorkerRole1Content\diagnostics.wadcfgx" />
+    <DiagnosticsConfiguration Include="WorkerRoleContent\diagnostics.wadcfgx" />
   </ItemGroup>
   <ItemGroup>
     <PublishProfile Include="Profiles\CSESMigration.azureRMPubxml" />

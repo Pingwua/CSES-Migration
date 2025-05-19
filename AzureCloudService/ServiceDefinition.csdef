@@ -14,10 +14,10 @@
     </ConfigurationSettings>
     <Endpoints>
       <InputEndpoint name="Endpoint1" protocol="http" port="80" />
-      <InputEndpoint name="HttpsEndpoint" protocol="https" port="443" certificate="Certificate1"/>
+      <InputEndpoint name="HttpsEndpoint" protocol="https" port="443" certificate="Certificate1" />
     </Endpoints>
     <Certificates>
-      <Certificate name="Certificate1" storeLocation="LocalMachine" storeName="My" permissionLevel="limitedOrElevated"/>
+      <Certificate name="Certificate1" storeLocation="LocalMachine" storeName="My" permissionLevel="limitedOrElevated" />
     </Certificates>
     <Startup>
       <Task commandLine="Startup.cmd" executionContext="limited" taskType="simple">
@@ -27,9 +27,9 @@
       </Task>
     </Startup>
   </WebRole>
-  <WorkerRole name="WorkerRole1" vmsize="Standard_D1_v2">
+  <WorkerRole name="WorkerRole" vmsize="Standard_D1_v2">
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+      <Setting name="Microsoft.ServiceBus.ConnectionString" />
     </ConfigurationSettings>
   </WorkerRole>
 </ServiceDefinition>

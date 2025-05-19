@@ -9,10 +9,10 @@
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
     </ConfigurationSettings>
   </Role>
-  <Role name="WorkerRole1">
+  <Role name="WorkerRole">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.ServiceBus.ConnectionString" value="[service bus namespace access key]" />
     </ConfigurationSettings>
   </Role>
   <NetworkConfiguration>
@@ -24,6 +24,11 @@
         </Subnets>
       </InstanceAddress>
       <InstanceAddress roleName="WorkerRole1">
+        <Subnets>
+          <Subnet name="WebTier" />
+        </Subnets>
+      </InstanceAddress>
+      <InstanceAddress roleName="WorkerRole">
         <Subnets>
           <Subnet name="WebTier" />
         </Subnets>
