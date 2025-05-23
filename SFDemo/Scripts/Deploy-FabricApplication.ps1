@@ -203,7 +203,7 @@ if (-not $UseExistingClusterConnection)
 
     try
     {
-        [void](Connect-ServiceFabricCluster @ClusterConnectionParameters)
+        [void](Connect-ServiceFabricCluster)
     }
     catch [System.Fabric.FabricObjectClosedException]
     {

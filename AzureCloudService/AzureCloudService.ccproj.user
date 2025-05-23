@@ -4,5 +4,6 @@
     <PackageProfile>Cloud</PackageProfile>
     <PackageSolutionConfiguration>Release</PackageSolutionConfiguration>
     <PackageEnableRemoteDesktop>False</PackageEnableRemoteDesktop>
+    <ActivePublishProfile>CSESMigration</ActivePublishProfile>
   </PropertyGroup>
 </Project>

@@ -39,6 +39,7 @@
     <ProjectReference Include="Web1\Web1.csproj">
       <ServiceLaunchUrl>http://localhost:{ServicePort}/</ServiceLaunchUrl>
     </ProjectReference>
+    <ProjectReference Include="WorkerService\WorkerService.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <PropertyGroup>
